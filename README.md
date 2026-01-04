@@ -45,9 +45,13 @@ Both APIs are free and do not require authentication.
 
 ## Project Structure
 weather-app/
+
 |── index.html
+
 │── style.css
+
 │── script.js
+
 │── README.md
 
 ## How It Works
