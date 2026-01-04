@@ -43,17 +43,6 @@ Used to fetch current weather data using coordinates.
 
 Both APIs are free and do not require authentication.
 
-## Project Structure
-weather-app/
-
-|── index.html
-
-│── style.css
-
-│── script.js
-
-│── README.md
-
 ## How It Works
 
 User enters a city name
@@ -63,3 +52,10 @@ App fetches latitude & longitude of the city
 Weather data is fetched using coordinates
 
 Current weather details are displayed on the screen
+
+## Screenshots
+
+<img width="1919" height="1199" alt="Screenshot 2026-01-04 205949" src="https://github.com/user-attachments/assets/b155787f-cc34-42d9-9f84-a1d304776552" />
+
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/ba5f55e2-9523-40bc-972d-7460102b706a" />
+
