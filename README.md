@@ -9,53 +9,57 @@ Users can enter a city name and view the current temperature and wind speed.
 
 ## Features
 
-    Search weather by city name
+Search weather by city name
 
-    Displays:
+Displays:
 
-        Temperature (°C)
+-> Temperature (°C)
         
-        Wind speed (km/h)
+-> Wind speed (km/h)
 
-    Uses key-less public APIs
+Uses key-less public APIs
 
-    Beginner-friendly and lightweight
+Beginner-friendly and lightweight
 
-    No backend required
+No backend required
 
 ## Technologies Used
 
-    HTML – Structure of the app
+HTML – Structure of the app
 
-    CSS – Styling and layout
+CSS – Styling and layout
 
-    JavaScript – Logic and API calls
+JavaScript – Logic and API calls
 
-    REST API – Fetching weather data
+REST API – Fetching weather data
 
 ## APIs Used
 
-    Open-Meteo Geocoding API
-    Used to convert city name into latitude and longitude.
+Open-Meteo Geocoding API
+Used to convert city name into latitude and longitude.
 
-    Open-Meteo Weather API
-    Used to fetch current weather data using coordinates.
+Open-Meteo Weather API
+Used to fetch current weather data using coordinates.
 
-    Both APIs are free and do not require authentication.
+Both APIs are free and do not require authentication.
 
 ## Project Structure
-    weather-app/
-    │── index.html
-    │── style.css
-    │── script.js
-    │── README.md
+weather-app/
+
+|── index.html
+
+│── style.css
+
+│── script.js
+
+│── README.md
 
 ## How It Works
 
-    User enters a city name
+User enters a city name
 
-    App fetches latitude & longitude of the city
+App fetches latitude & longitude of the city
 
-    Weather data is fetched using coordinates
+Weather data is fetched using coordinates
 
-    Current weather details are displayed on the screen
+Current weather details are displayed on the screen
