@@ -5,22 +5,45 @@
     <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <div class="card">
-        <h2>Weather App 🌦️</h2>
+    <header class="heading">
+        Weather App 🌦️
+    </header>
 
-        <input type="text" id="city" placeholder="Enter city name">
-        <button onclick="getWeather()">Get Weather</button>
+    <main class="main">
+        <div class="card">
+            <div class="card1">
+                <h2>Weather App 🌦️</h2>
 
-        <p id="result">Enter a city to check weather</p>
-    </div>
+                <input type="text" id="city" placeholder="Enter city name">
+                <button onclick="getWeather()">Get Weather</button>
 
+                <p id="result">Enter a city to check weather</p>
+            </div>
+
+            <div class="card2">
+                <h2>Instructions</h2>
+                <ul style="text-align: left; line-height: 25px;">
+                    <li>Enter a city name</li>
+                    <li>App fetches latitude & longitude of the city</li>
+                    <li>Weather data is fetched using coordinates</li>
+                    <li>Current weather details are displayed on the screen</li>
+                </ul>
+            </div>
+
+        </div>
+    </main>
+    
+    <footer>
+        <p>
+            Weather App © 2026 | Built by
+            <a href="https://github.com/NEIL-DANIEL-A" target="_blank">Neil Daniel</a>
+        </p>
+    </footer>
 
     <script src="script.js"></script>
 
-    <footer>
-        <p>Weather App © 2026 | Built by <a href="https://github.com/NEIL-DANIEL-A" target="_blank">Neil Daniel</a></p>
-    </footer>
 </body>
 </html>

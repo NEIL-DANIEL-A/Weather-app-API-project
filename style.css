@@ -1,23 +1,59 @@
+/* ---------- Base ---------- */
 body {
+    margin: 0;
     font-family: Arial, sans-serif;
     background: #e3f2fd;
+}
+
+/* ---------- Header ---------- */
+.heading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    font-size: 4vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: ivory;
+    z-index: 1000;
+}
+
+/* ---------- Main Content ---------- */
+.main {
+    min-height:75vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
-    padding-bottom: 15px;
+
+    /* Space for header & footer */
+    padding-top: 100px;
+    padding-bottom: 80px;
 }
 
+/* ---------- Cards Container ---------- */
 .card {
-    background-color: rgb(248, 241, 234) ;
+    display: flex;
+    gap: 2vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    max-width: 900px;
+}
+
+/* ---------- Individual Cards ---------- */
+.card1,
+.card2 {
+    background-color: rgb(248, 241, 234);
     padding: 25px;
     border-radius: 10px;
     text-align: center;
-    width: 40%;
-    height: auto;
     box-shadow: 0px 0px 30px 0px black;
+
+    flex: 1;
+    min-width: 280px;
 }
 
+/* ---------- Inputs ---------- */
 input {
     padding: 8px;
     width: 70%;
@@ -27,6 +63,7 @@ input {
     font-size: 18px;
 }
 
+/* ---------- Buttons ---------- */
 button {
     padding: 8px 15px;
     font-size: 18px;
@@ -34,42 +71,43 @@ button {
     background-color: rgb(92, 92, 255);
     color: white;
     border-radius: 20px;
+    border: none;
 }
 
-button:hover{
+button:hover {
     box-shadow: 0px 0px 20px 0px grey;
 }
 
+/* ---------- Text ---------- */
 p {
     margin-top: 15px;
     font-weight: bold;
     line-height: 40px;
 }
 
-h2{
-    font-size: 3vh;
-}
-
-footer{
+/* ---------- Footer ---------- */
+footer {
     position: fixed;
     bottom: 0;
-    color: grey;
+    left: 0;
     width: 100%;
+    color: grey;
     text-align: center;
-    background-color:ivory;
+    background-color: ivory;
     border-top: 2px solid grey;
 }
 
-footer>p{
+footer > p {
     margin: 5px;
     padding: 10px;
 }
 
-p>a{
+/* ---------- Links ---------- */
+p > a {
     color: inherit;
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     color: black;
 }
